@@ -1,0 +1,106 @@
+*{
+/*	margin: 0px;
+	padding: 0px;
+*/	font-family: "Comic Sans MS";
+}#wrapper {
+	background-color: #F3FFB6;
+	border: 2px solid black;
+	margin: 0 auto;
+	width: 860px;	
+}
+#header {
+	background-color: #CDE6FF;
+	border-bottom: 2px solid black;
+	padding: 10px;
+	height: 30px;
+}
+#header h3 {
+	height: 30px;
+	color: black;
+	float: left;
+	margin: 0px;
+}
+#login {
+	font-size: small;
+	float: right;
+}
+#login a {
+	margin-left: 30px;
+}
+#content {
+	margin-top: 30px;
+	margin-left: 40px;
+}
+#curr_message {
+	width: 700px;
+	height: 50px;
+	border: 2px solid black;
+	margin-bottom: 5px;
+}
+#post_msg {
+	background-color: blue;
+	color: white;
+	border: 2px solid black;
+	font-size: small;
+	margin-right: 110px;
+	margin-bottom: 5px;
+	float: right;
+}
+.author {
+	font-weight: bold;
+	float: left;
+}
+#delete_past_message {
+	margin-left: 5px;
+	float: left;
+}
+#delete_message {
+	margin-bottom: 5;
+}
+.past_messages {
+	margin-top: 30px;
+	font-size: small;
+}
+.past_messages p {
+	width: 700px;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+	#comments_div {
+		margin-left: 20px;
+		font-size: small;
+	}
+	#curr_comment {
+		width: 680px;
+		height: 40px;
+		border: 2px solid black;
+		margin-bottom: 5px;
+	}
+	#post_comment {
+		background-color: green;
+		color: white;
+		border: 2px solid black;
+		font-size: small;
+		margin-right: 110px;
+		float: right;
+	}
+	.past_comments {
+		margin-top: 30px;
+		font-size: small;
+	}
+	.past_comments p {
+		width: 600px;
+	}
+.small_text {
+	font-size: small;
+}
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+.clear {
+	clear: both;
+}
+
